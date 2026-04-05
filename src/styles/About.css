@@ -1,0 +1,213 @@
+
+.about-container {
+background-color:  #c0812a;
+}
+
+
+
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: 'Courier New', monospace;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-row.reverse {
+    flex-direction: column;
+  }
+
+  .about-text h2 {
+    font-size: 1.5rem;
+    font-family: 'Courier New', monospace;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+    font-family: 'Courier New', monospace;
+  }
+}
+
+.mission-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.meet-our-team {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: start;
+  gap: 2rem;
+  margin-bottom: 3rem;
+
+}
+.position {
+  font-size: 8px;
+  color: #555;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  padding: 20px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.about-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.about-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 300px;
+}
+
+.about-image img {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+  min-width: 280px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Courier New', monospace;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+/* Meet the team section */
+.mission-section {
+  margin: 60px auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.mission-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.meet-our-team {
+  background-color: #0a0a0a;
+  display: inline-block;
+  width: 45%;
+  margin: 0 2% 20px 2%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.meet-our-team p {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-family: 'Courier New', monospace;
+  color:  #c0812a;
+}
+
+.position {
+  color:  #c0812a;
+  font-size: 0.95rem;
+}
+
+/* Services and stats section */
+section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 20px;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+}
+
+.stat-item {
+  text-align: center;
+  width: 150px;
+  padding: 20px;
+  background: #0a0a0a;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-family: 'Courier New', monospace;
+}
+
+.stat-item h3 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color:  #c0812a;
+  font-family: 'Courier New', monospace;
+}
+
+.stat-item p {
+  color:  #c0812a;
+  font-family: 'Courier New', monospace;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .meet-our-team {
+    width: 100%;
+  }
+}

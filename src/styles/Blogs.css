@@ -1,0 +1,26 @@
+.blog-container {
+ 
+  margin: 0 ;
+  padding: 3rem 1rem;
+  background-color: #f7f4f4;
+font-family: 'Courier New', monospace;
+  border-bottom:4px solid #000000 ;
+  border-top:4px solid #676262 ;
+}
+
+.blog-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #000000 ;
+  font-family: 'Courier New', monospace;
+}
+.blog-container p {
+  font-weight:500px ;
+  font-size: 15.5px;
+  
+}
+
+.paragraph {
+color: #000;
+}

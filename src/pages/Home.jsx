@@ -380,7 +380,7 @@ function ExclusiveOffer({ allTripPackages }) {
     <div className="exclusive-offer-section">
    <div class="exclusive-offer">
             <h2>Exclusive Limited-Time Offer!</h2>
-            <p><strong>From 15 NOV 2025 till 20 NOV 2025 </strong></p>
+            <p><strong>From 15 Sep 2026 till 30 Dec 2026 </strong></p>
             <p>Book our 7-Days Libya Adventure Tour now and get 50% off!  </p>
                <span class="price-tag tag">Original Price: €1,394</span> 
                <span class="price-tag">Now Only: €899</span>

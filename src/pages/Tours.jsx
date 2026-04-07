@@ -100,7 +100,7 @@ const [_tours, setTours] = useState([]);
       </div>
 
       <a
-        href="https://wa.me/218925919782?text=Hi, I'm interested in booking a tour with Indinan Tours."
+        href="https://wa.me/218925919782?text=Hi, I'm interested in booking a tour with you ."
         className="whatsapp-icon"
         target="_blank"
         rel="noopener noreferrer"

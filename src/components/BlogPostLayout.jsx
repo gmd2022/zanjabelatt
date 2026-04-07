@@ -4,8 +4,8 @@ import '../styles/BlogPostLayout.css';
 
 const BlogPostLayout = ({ title, description, children }) => {
   const slug = title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-');
-  const url = `https://zanjbela.xyz/blog/${slug}`;
-  const featuredImage = `https://zanjbela.xyz/assets/${slug}.jpg`;
+  const url = `https://zanjabela.xyz/blog/${slug}`;
+  const featuredImage = `https://zanjabela.xyz/assets/${slug}.jpg`;
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -22,7 +22,7 @@ const BlogPostLayout = ({ title, description, children }) => {
       name: 'Zanjabela Tours',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://zanjbela.xyz/logo.png'
+        url: 'https://zanjabela.xyz/logo.png'
       }
     },
     url: url,

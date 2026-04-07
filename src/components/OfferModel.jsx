@@ -43,7 +43,7 @@ const OfferModel = () => {
         
         <div className="offer-body">
           <div className="discount-badge">50% OFF</div>
-          <h3>7-Days Libya Adventure Tour</h3>
+          <h3>6-Days Libya Adventure Tour</h3>
           <p className="original-price">Original Price: €1,798</p>
           <p className="discounted-price">Now Only: <span>€950</span></p>
           

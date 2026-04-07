@@ -19,16 +19,16 @@ const About = () => {
         <meta name="keywords" content="Libya tours, travel Libya, Zanjabela Tours, Libyan desert, Sahara, Ghat festival, Roman ruins Libya, guided tours Libya, Libyan culture" />
         <meta property="og:title" content="Zanjabela Tours | Explore Libya's Culture & Desert Adventures" />
         <meta property="og:description" content="Book unforgettable cultural and desert experiences in Libya. Guided tours, visa help, and more." />
-        <meta property="og:url" content="https://zanjbela.xyz/" />
+        <meta property="og:url" content="https://zanjabela.xyz/" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://zanjbela.xyz/images/sab.jpg" />
+        <meta property="og:image" content="https://zanjabela.xyz/images/sab.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@travel2libya" />
         <meta name="twitter:title" content="Zanjabela Tours" />
         <meta name="twitter:description" content="Explore Libya through culture, history, and desert adventure." />
         <meta name="twitter:image" content="https://zanjbela.xyz/assets/subra.jpeg" />
 
-        <link rel="canonical" href="https://zanjbela.xyz/" />
+        <link rel="canonical" href="https://zanjabela.xyz/" />
       </Helmet>
   <section className="about-section">
   <div className="about-row">
